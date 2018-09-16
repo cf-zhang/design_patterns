@@ -2,7 +2,6 @@
 #include "simplepizzafactory.h"
 #include "pizza.h"
 #include "pizzastore.h"
-#include "nyppizzastore.h"
 using namespace std;
 
 int main()
