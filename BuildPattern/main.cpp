@@ -13,12 +13,12 @@ int main()
     builder = new SubMealBuilderA;
     waiter.setMealBuilder(builder);
     meal = waiter.construct();
-    meal.eatIt();
+    meal.beEaten();
 
     builder = new SubMealBuilderB;
     waiter.setMealBuilder(builder);
     meal = waiter.construct();
-    meal.eatIt();
+    meal.beEaten();
 
     return 0;
 }
