@@ -4,11 +4,11 @@
 
 class Beverage{
 public:
-	Beverage():descript(""){
+    Beverage(){
 	}
-	std::string getdescript(){
+    virtual std::string getdescript(){
 		return descript;
-	} 
+    }
 	virtual double cost() = 0;
 	
 protected: 
